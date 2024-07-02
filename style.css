@@ -38,6 +38,9 @@ body {
         background-color: var(--botao-azul-efeito);
         color: var(--cor-de-fundo); 
  }
+  text-decoration: none;
+     margin-bottom: 1em;
+     
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
