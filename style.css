@@ -27,7 +27,7 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 55%;
 }
 .container__botao {
      background-color: var(--botao-azul);
@@ -38,8 +38,7 @@ body {
         background-color: var(--botao-azul-efeito);
         color: var(--cor-de-fundo); 
  }
-  text-decoration: none;
-     margin-bottom: 3em;
+
      
 .botao_secundario {
     background-color: transparent;
