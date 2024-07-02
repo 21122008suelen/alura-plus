@@ -27,19 +27,21 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 50% 50%;
 }
 .container__botao {
-     background-color: var(--botao-azul);
-     border-radius: 5px;
-     padding: 1em;
-     color: var(--branco-principal);
-     display: block;.container__botao:hover {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;.container__botao:hover {
         background-color: var(--botao-azul-efeito);
-        color: var(--cor-de-fundo); 
- }
-
-     
+        color: var(--cor-de-fundo);
+    }
+    
+    text-decoration: none;
+    margin-bottom: 1em;
+}
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
@@ -124,4 +126,3 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
-
